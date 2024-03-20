@@ -1,4 +1,4 @@
-# I;port libreries
+# Import libreries
 import cv2
 import numpy as np 
 
