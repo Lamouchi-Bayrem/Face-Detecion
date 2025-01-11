@@ -18,6 +18,7 @@ def preprocess_image(image_path):
     if len(faces) == 0:
         return None, None
     
+    
     # Assuming only one face in the image, extract the region of interest (ROI)
     (x, y, w, h) = faces[0]
     face_roi = gray[y:y+w, x:x+h]
