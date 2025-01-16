@@ -7,6 +7,7 @@ face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_fronta
 
 # Function to preprocess the image data
 def preprocess_image(image_path):
+    
     # Read the image
     img = cv2.imread(image_path)
     # Convert the image to grayscale
